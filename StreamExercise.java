@@ -41,7 +41,6 @@ public class StreamExercise
     	
             // Get field names from csv file
             String[] fields = Files.lines(Path.of(csvFile)).map(fld -> fld.split(delimiter, -1)).findFirst().get();
-            System.out.println(Arrays.toString(fields));
 
             lines.skip(1)
               .forEach(line -> {
