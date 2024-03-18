@@ -1,0 +1,11 @@
+ID,FIRST_NAME,LAST_NAME,ADDRESS,ZIPCODE,TAX_RATE
+1,"Fred","Flinstone","201 Cobblestone Lane",12345,8.12
+2,"Wilma","Flinstone","201 Cobblestone Lane, Bedrock",12345,8.12
+3,"Dino",,"201 Cobblestone Lane",12345,0.00
+4," Barney "," Rubble ","301 Cobblestone Lane, Bedrock",12345,8.05
+5,"  Betty","Rubble  ","301 Cobblestone Lane",12345xx,8.05
+6,"Hoppy",,"301 Cobblestone Lane",12345,0.00
+7x,"BadData",,"",12345,50.87
+8,"emptyString","","",12345,0.99
+9,noquotes,"","",98765,0.98
+10,"too many fields","","","",98765,1.23
