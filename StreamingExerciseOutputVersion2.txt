@@ -1,0 +1,10 @@
+Expected a numeric value, and found instead: 5,"  Betty","Rubble  ","301 Cobblestone Lane",12345xx,8.05
+{ID=6, FIRST_NAME="Hoppy", LAST_NAME=, ADDRESS="301 Cobblestone Lane", ZIPCODE=12345, TAX_RATE=0.0}
+{ID=3, FIRST_NAME="Dino", LAST_NAME=, ADDRESS="201 Cobblestone Lane", ZIPCODE=12345, TAX_RATE=0.0}
+{Error=number of row fields [7] does not match header field size [6]: [10, "too many fields", "", "", "", 98765, 1.23]}
+Expected a numeric value, and found instead: 7x,"BadData",,"",12345,50.87
+{ID=9, FIRST_NAME=noquotes, LAST_NAME="", ADDRESS="", ZIPCODE=98765, TAX_RATE=0.98}
+{ID=2, FIRST_NAME="Wilma", LAST_NAME="Flinstone", ADDRESS="201 Cobblestone Lane, Bedrock", ZIPCODE=12345, TAX_RATE=8.12}
+{ID=8, FIRST_NAME="emptyString", LAST_NAME="", ADDRESS="", ZIPCODE=12345, TAX_RATE=0.99}
+{ID=4, FIRST_NAME=" Barney ", LAST_NAME=" Rubble ", ADDRESS="301 Cobblestone Lane, Bedrock", ZIPCODE=12345, TAX_RATE=8.05}
+{ID=1, FIRST_NAME="Fred", LAST_NAME="Flinstone", ADDRESS="201 Cobblestone Lane", ZIPCODE=12345, TAX_RATE=8.12}
